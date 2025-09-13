@@ -1,7 +1,7 @@
 {
   "version": 2,
   "routes": [
-    { "src": "/webhook", "dest": "api/main.py" },
-    { "src": "/", "dest": "api/main.py" }
+    { "src": "/webhook", "dest": "/api/main.py" },
+    { "src": "/", "dest": "/api/main.py" }
   ]
 }
